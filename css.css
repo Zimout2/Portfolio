@@ -62,24 +62,6 @@ nav {
     filter: drop-shadow(0 0 10px #e32636); /* Lueur rouge IUT */
 }
 
-/* 2. Logo ANSSI (Aligné à droite) */
-#logo-anssi {
-    position: absolute;
-    top: 25%;             /* MÊME HAUTEUR que le logo IUT */
-    right: 5%;            /* Collé à droite */
-    transform: translateY(-50%);
-    width: 220px;
-    height: auto;
-    z-index: 10;
-    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
-    transition: transform 0.3s, filter 0.3s;
-}
-
-#logo-anssi:hover {
-    transform: translateY(-50%) scale(1.1);
-    filter: drop-shadow(0 0 10px var(--accent-cyan));
-}
-
 #parcours {
     padding-right: 150px;
 }
